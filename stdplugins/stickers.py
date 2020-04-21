@@ -44,8 +44,8 @@ async def _(event):
 
     me = borg.me
     userid = borg.uid
-    packname = Kanishk's kang Pack
-    packshortname = kang pack
+    packname = "Kanishk's kang Pack"
+    packshortname = "kang pack"
 
     is_a_s = is_it_animated_sticker(reply_message)
     file_ext_ns_ion = "@UniBorg_Sticker.png"
