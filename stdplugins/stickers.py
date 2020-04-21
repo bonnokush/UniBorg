@@ -48,7 +48,7 @@ async def _(event):
     packshortname = "kang pack"
 
     is_a_s = is_it_animated_sticker(reply_message)
-    file_ext_ns_ion = "@UniBorg_Sticker.png"
+    file_ext_ns_ion = "@kangbang.png"
     file = await borg.download_file(reply_message.media)
     uploaded_sticker = None
     if is_a_s:
